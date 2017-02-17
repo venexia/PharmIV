@@ -14,7 +14,7 @@ PharmIV(n = NULL, delta = NULL, alpha = 0.05, sigma = 1.00, prob_x1 = NULL, prob
 
 ## Shiny
 
-This folder contains the code to produce the power calculator Shiny app. The app is avaliable at: https://venexia.shinyapps.io/PharmIV/. 
+This folder contains the code to produce the power calculator shiny app. The app is avaliable at: https://venexia.shinyapps.io/PharmIV/. 
 
 ## Stata_package
 
