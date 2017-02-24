@@ -8,7 +8,7 @@ Walker, V. M., Davies, N. M., Windmeijer, F., Burgess, S. & Martin, R. M. Power 
 
 This folder contains the R package to calculate the power of an instrumental variable analysis study using a single binary instrument Z to analyse the causal effect of a binary exposure X on a continuous outcome Y. The syntax for this package is as follows:
 
-```
+```r
 PharmIV(n = NULL, delta = NULL, alpha = 0.05, sigma = 1.00, prob_x1 = NULL, prob_z1 = NULL, cond_z1 = NULL, cond_z0 = NULL)
 ```
 
@@ -20,7 +20,7 @@ This folder contains the code to produce the power calculator shiny app. The app
 
 This folder contains the Stata package to calculate the power of an instrumental variable analysis study using a single binary instrument Z to analyse the causal effect of a binary exposure X on a continuous outcome Y. The syntax for this package is as follows:
 
-```
+```stata
 PharmIV, n(numlist) delta(numlist) alpha(numlist) sigma(numlist) prob_x1(numlist) prob_z1(numlist) cond_z1(numlist) cond_z0(numlist) 
 ```
 
