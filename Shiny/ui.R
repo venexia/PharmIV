@@ -13,8 +13,8 @@ shinyUI(pageWithSidebar(
     helpText("At least three of the following four parameters must be specified:"),
     numericInput("prob_x1", "Frequency of exposure, P(X=1):", value=NULL, max=1, min=0),
     numericInput("prob_z1", "Frequency of instrument, P(Z=1):", value=NULL, max=1, min=0),
-    numericInput("cond_x1z1", "Probability of exposure given the instrument Z=1, P(X=1|Z=1): ", value=NULL, max=1, min=0),
-    numericInput("cond_x1z0", "Probability of exposure given the instrument Z=0, P(X=1|Z=0): ", value=NULL, max=1, min=0),
+    numericInput("cond_z1", "Probability of exposure given the instrument Z=1, P(X=1|Z=1): ", value=NULL, max=1, min=0),
+    numericInput("cond_z0", "Probability of exposure given the instrument Z=0, P(X=1|Z=0): ", value=NULL, max=1, min=0),
     submitButton("Update")
   ),
   
@@ -23,7 +23,8 @@ shinyUI(pageWithSidebar(
     tableOutput("inval"),
     verbatimTextOutput("power"),
     p('If you use this tool, please cite:'),
-    p('Walker, V. M., Davies, N. M., Windmeijer, F., Burgess, S. & Martin, R. M. Power calculator for instrumental variable analysis in pharmacoepidemiology. bioRxiv 084541 (2016). doi:10.1101/084541')
+    p('Walker, V. M., Davies, N. M., Windmeijer, F., Burgess, S. & Martin, R. M. Power calculator for instrumental variable analysis in pharmacoepidemiology. bioRxiv 084541 (2016). doi:10.1101/084541'),
+    p(a("The code used to create this app, as well as packages for use in Stata and R, can be downloaded here.",     href="https://github.com/venexia/PharmIV"))
   )
   
 ))
