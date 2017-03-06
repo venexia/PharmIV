@@ -32,13 +32,13 @@ qui {
 				local cond_z0 = cond_z0_`j'[`i']
 				foreach x in n prob_z1 beta_0 beta_1 delta alpha cond_z1 {
 					local `x' = `x'[`i']
-					local di_`x' : di %3.2f ``x''
+					local di_`x' : di %4.3f ``x''
 				}
 				PharmIV, n(`n') prob_z1(`prob_z1') prob_x1(`prob_x1') delta(`delta') alpha(`alpha') cond_z1(`cond_z1')
 				use "$data/temp/powercurve.dta", clear
 				replace formula_`j' = 100*r(PharmIV) if id==`i'
 				replace cond_z0_`j' = r(cond_z0) if id==`i' 
-				local di_cond_z0_`j' : di %4.3f `cond_z0_`j''
+				local di_cond_z0_`j' : di %4.3f cond_z0_`j'[1]
 				save "$data/temp/powercurve.dta", replace
 			}
 		}
@@ -71,5 +71,5 @@ qui {
 		, size(small) just(left) place(se))
 	scheme(sj);
 	#delimit cr
-	graph export "$data/`name'.pdf", replace
+	graph export "$output/`name'.tif", replace width(2250)
 }

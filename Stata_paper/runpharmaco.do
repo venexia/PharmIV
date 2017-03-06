@@ -3,6 +3,7 @@
 global project "E:/IVPower/pharmaco"
 global dofiles "$project/do_files"
 global data "$project/data"
+global output "$project/output"
 cd $project
 
 // Run necessary functions and packages
