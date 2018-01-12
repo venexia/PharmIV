@@ -1,4 +1,3 @@
-cap prog drop PharmIV
 prog def PharmIV, rclass
 	version 1.0
 	
