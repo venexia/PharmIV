@@ -4,7 +4,13 @@ This respository supplies the tools necessary to calculate the power of an instr
 
 Walker VM, Davies NM, Windmeijer F, Burgess S, Martin RM. Power calculator for instrumental variable analysis in pharmacoepidemiology. Int J Epidemiol. 2017 Oct 1;46(5):1627–32. 
 
-The simulations and plots included in this paper were produced using Stata - the code for which is in the folder 'Stata_paper'.
+The simulations and plots included in this paper were produced using Stata and the code can be found in the folder 'Stata_paper'.
+
+## Shiny
+
+The folder 'Shiny' contains the code to produce the power calculator shiny app. The app is avaliable at:
+
+https://venexia.shinyapps.io/PharmIV/
 
 ## R package
 
@@ -32,10 +38,6 @@ PharmIV(n = NULL, delta = NULL, alpha = 0.05, sigma = 1.00, prob_x1 = NULL, prob
 What is the power of an instrumental variable analysis study with 10,000 participants to detect a treament effect of 0.20 for a treatment with a frequency of exposure of 0.50? The binary instrument for the study has a freqency of 0.20 and the probability of exposure given the instrument Z=0 is 0.57.
 
 ![alt text](Screenshots/R_Example.png)
-
-## Shiny
-
-The folder 'Shiny' contains the code to produce the power calculator shiny app. The app is avaliable at: https://venexia.shinyapps.io/PharmIV/. 
 
 ## Stata package
 
