@@ -41,7 +41,7 @@ What is the power of an instrumental variable analysis study with 10,000 partici
 
 ## Stata package
 
-To allow web download, the power calculator Stata package is contained in its own repository: PharmIV_Stata.
+To allow web download, the power calculator Stata package is contained in its own repository: https://github.com/venexia/PharmIV_Stata.
 
 ### Installation
 
