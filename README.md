@@ -4,9 +4,9 @@ This respository supplies the tools necessary to calculate the power of an instr
 
 Walker VM, Davies NM, Windmeijer F, Burgess S, Martin RM. Power calculator for instrumental variable analysis in pharmacoepidemiology. Int J Epidemiol. 2017 Oct 1;46(5):1627–32. 
 
-## R_package
+## R package
 
-This folder contains the R package to calculate the power of an instrumental variable analysis study using a single binary instrument Z to analyse the causal effect of a binary exposure X on a continuous outcome Y. 
+The folder 'R_package' contains the R package to calculate the power of an instrumental variable analysis study using a single binary instrument Z to analyse the causal effect of a binary exposure X on a continuous outcome Y. 
 
 ### Installation
 
@@ -33,11 +33,11 @@ What is the power of an instrumental variable analysis study with 10,000 partici
 
 ## Shiny
 
-This folder contains the code to produce the power calculator shiny app. The app is avaliable at: https://venexia.shinyapps.io/PharmIV/. 
+The folder 'Shiny' contains the code to produce the power calculator shiny app. The app is avaliable at: https://venexia.shinyapps.io/PharmIV/. 
 
-## Stata_package
+## Stata package
 
-This folder contains the Stata package to calculate the power of an instrumental variable analysis study using a single binary instrument Z to analyse the causal effect of a binary exposure X on a continuous outcome Y. 
+The folder 'Stata_package' contains the Stata package to calculate the power of an instrumental variable analysis study using a single binary instrument Z to analyse the causal effect of a binary exposure X on a continuous outcome Y. 
 
 ### Syntax
 
@@ -47,7 +47,7 @@ The syntax for this package is as follows:
 PharmIV, n(numlist) delta(numlist) alpha(numlist) sigma(numlist) prob_x1(numlist) prob_z1(numlist) cond_z1(numlist) cond_z0(numlist) 
 ```
 
-## Stata_paper
+## Stata paper
 
-This folder contains the code to reproduce the paper "Power calculator for instrumental variable analysis in pharmacoepidemiology".
+The folder 'Stata_paper' contains the code to reproduce the paper "Power calculator for instrumental variable analysis in pharmacoepidemiology" - the citation for which is given above.
 
