@@ -1,6 +1,6 @@
-   v 0
-        d PharmIV
+v 0
+d PharmIV
 
-        d Package to calculate the power of an instrumental variable analysis study using a single binary instrument Z to analyse the causal effect of a binary exposure X on a continuous outcome Y.
+d Package to calculate the power of an instrumental variable analysis study using a single binary instrument Z to analyse the causal effect of a binary exposure X on a continuous outcome Y.
 
-        p PharmIV. Power calculator for instrumental variable analysis in pharmacoepidemiology.
+p PharmIV Power calculator for instrumental variable analysis in pharmacoepidemiology
