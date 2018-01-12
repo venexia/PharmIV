@@ -6,11 +6,30 @@ Walker, V. M., Davies, N. M., Windmeijer, F., Burgess, S. & Martin, R. M. Power 
 
 ## R_package
 
-This folder contains the R package to calculate the power of an instrumental variable analysis study using a single binary instrument Z to analyse the causal effect of a binary exposure X on a continuous outcome Y. The syntax for this package is as follows:
+This folder contains the R package to calculate the power of an instrumental variable analysis study using a single binary instrument Z to analyse the causal effect of a binary exposure X on a continuous outcome Y. 
+
+### Installation
+
+The package can be installed using the following commands:
+
+```r
+install.packages("devtools")
+devtools::install_github("venexia/PharmIV", subdir="R_package")
+```
+
+### Syntax
+
+The syntax for this package is as follows:
 
 ```r
 PharmIV(n = NULL, delta = NULL, alpha = 0.05, sigma = 1.00, prob_x1 = NULL, prob_z1 = NULL, cond_z1 = NULL, cond_z0 = NULL)
 ```
+
+### Example
+
+What is the power of an instrumental variable analysis study with 10,000 participants to detect a treament effect of 0.20 for a treatment with a frequency of exposure of 0.50? The binary instrument for the study has a freqency of 0.20 and the probability of exposure given the instrument Z=0 is 0.57.
+
+![alt text](Screenshots/R_Example.png)
 
 ## Shiny
 
