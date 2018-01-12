@@ -37,7 +37,11 @@ This folder contains the code to produce the power calculator shiny app. The app
 
 ## Stata_package
 
-This folder contains the Stata package to calculate the power of an instrumental variable analysis study using a single binary instrument Z to analyse the causal effect of a binary exposure X on a continuous outcome Y. The syntax for this package is as follows:
+This folder contains the Stata package to calculate the power of an instrumental variable analysis study using a single binary instrument Z to analyse the causal effect of a binary exposure X on a continuous outcome Y. 
+
+### Syntax
+
+The syntax for this package is as follows:
 
 ```stata
 PharmIV, n(numlist) delta(numlist) alpha(numlist) sigma(numlist) prob_x1(numlist) prob_z1(numlist) cond_z1(numlist) cond_z0(numlist) 
