@@ -45,6 +45,8 @@ To allow web download, the Stata package to calculate the power of an instrument
 
 ### Installation
 
+The package can be installed using the following commands:
+
 ```stata
 net install github, from("https://haghish.github.io/github/")
 github install venexia/PharmIV_Stata
