@@ -14,7 +14,7 @@ https://venexia.shinyapps.io/PharmIV/
 
 ## R package
 
-The folder 'R_package' contains the R package to calculate the power of an instrumental variable analysis study using a single binary instrument Z to analyse the causal effect of a binary exposure X on a continuous outcome Y. 
+The folder 'R_package' contains the power calculator R package.
 
 ### Installation
 
@@ -41,7 +41,7 @@ What is the power of an instrumental variable analysis study with 10,000 partici
 
 ## Stata package
 
-To allow web download, the Stata package to calculate the power of an instrumental variable analysis study using a single binary instrument Z to analyse the causal effect of a binary exposure X on a continuous outcome Y is contained in its own repository 'PharmIV_Stata'. 
+To allow web download, the power calculator Stata package is contained in its own repository: PharmIV_Stata.
 
 ### Installation
 
