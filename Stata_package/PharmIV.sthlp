@@ -1,13 +1,9 @@
 {smcl}
 {* *! version 1.2.1  07mar2013}{...}
-{findalias asfradohelp}{...}
-{vieweralsosee "" "--"}{...}
-{vieweralsosee "[R] help" "help help"}{...}
-{viewerjumpto "Syntax" "examplehelpfile##syntax"}{...}
-{viewerjumpto "Description" "examplehelpfile##description"}{...}
-{viewerjumpto "Options" "examplehelpfile##options"}{...}
-{viewerjumpto "Remarks" "examplehelpfile##remarks"}{...}
-{viewerjumpto "Examples" "examplehelpfile##examples"}{...}
+{viewerjumpto "Syntax" "PharmIV##syntax"}{...}
+{viewerjumpto "Description" "PharmIV##description"}{...}
+{viewerjumpto "Remarks" "PharmIV##remarks"}{...}
+{viewerjumpto "Examples" "PharmIV##examples"}{...}
 {title:Title}
 
 {phang}
