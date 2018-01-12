@@ -4,6 +4,8 @@ This respository supplies the tools necessary to calculate the power of an instr
 
 Walker VM, Davies NM, Windmeijer F, Burgess S, Martin RM. Power calculator for instrumental variable analysis in pharmacoepidemiology. Int J Epidemiol. 2017 Oct 1;46(5):1627–32. 
 
+The simulations and plots included in this paper were produced using Stata - the code for which is in the folder 'Stata_paper'.
+
 ## R package
 
 The folder 'R_package' contains the R package to calculate the power of an instrumental variable analysis study using a single binary instrument Z to analyse the causal effect of a binary exposure X on a continuous outcome Y. 
@@ -46,8 +48,3 @@ The syntax for this package is as follows:
 ```stata
 PharmIV, n(numlist) delta(numlist) alpha(numlist) sigma(numlist) prob_x1(numlist) prob_z1(numlist) cond_z1(numlist) cond_z0(numlist) 
 ```
-
-## Stata paper
-
-The folder 'Stata_paper' contains the code to reproduce the paper "Power calculator for instrumental variable analysis in pharmacoepidemiology" - the citation for which is given above.
-
