@@ -43,7 +43,7 @@ What is the power of an instrumental variable analysis study with 10,000 partici
 
 To allow web download, the power calculator Stata package is contained in its own repository:
 
-https://github.com/venexia/PharmIV_Stata
+https://github.com/venexia/PharmIV-Stata
 
 ### Installation
 
@@ -51,7 +51,7 @@ The package can be installed using the following commands:
 
 ```stata
 net install github, from("https://haghish.github.io/github/")
-github install venexia/PharmIV_Stata
+github install venexia/PharmIV-Stata
 ```
 
 ### Syntax
